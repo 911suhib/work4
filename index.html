@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    a {
+      border: solid green 2px;
+      padding: 15px 50px;
+      margin-top: 20px;
+      color: black;
+      align-items: center;
+      text-decoration: none;
+      height: 50px;
+    }
+    a:hover {
+      background-color: green;
+      color: white;
+    }
+    ul {
+      background-color: yellow;
+      list-style-type: square;
+    }
+    div {
+      background-image: url("yellwo.jpg");
+      display: inline-block;
+      position: absolute;
+      z-index: -1;
+      top: 150px;
+      height: 500px;
+      width: 500px;
+      background-size: 30%;
+      background-repeat: no-repeat;
+    }
+  </style>
+  <body>
+    <br /><br />
+    <a href="">This is a link</a>
+    <br /><br /><br />
+
+    <ul>
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Coca Cola</li>
+    </ul>
+
+    <div>
+      <h1><br />This is a heading</h1>
+
+      <p>
+        Because the image has a z-index of -1,it will be placed behind the text.
+      </p>
+    </div>
+  </body>
+</html>
